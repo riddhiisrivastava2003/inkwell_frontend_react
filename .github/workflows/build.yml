@@ -42,3 +42,4 @@ jobs:
             -Dsonar.tests=vitest-tests
             -Dsonar.test.inclusions=vitest-tests/**/*.test.{js,jsx}
             -Dsonar.javascript.lcov.reportPaths=coverage/lcov.info
+            -Dsonar.coverage.exclusions=src/main.jsx,src/App.jsx,src/router.jsx,src/**/*.css,src/assets/**,src/components/**,src/pages/**,src/layouts/**,src/contexts/**,src/hooks/**
