@@ -8,7 +8,7 @@ export default defineConfig({
     include: ["vitest-tests/**/*.test.{js,jsx}"],
     coverage: {
       provider: "v8",
-      reporter: ["text", "html"],
+      reporter: ["text", "html", "lcov"],
       thresholds: {
         statements: 72,
         branches: 70,
